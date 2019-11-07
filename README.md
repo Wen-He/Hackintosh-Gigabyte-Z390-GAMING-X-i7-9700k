@@ -33,7 +33,7 @@ macOS Catalina 10.15.1
 5. Close __IO Serial__
 6. Enable __XHCI Handoff__
 7. Set OS type to __Other OS__
-*8. Disable __intel graphics__*
+8. Disable *__intel graphics__*
 9. Save and Exit
 
 ### Create a Bootable USB and Install
@@ -52,7 +52,7 @@ __The `Bootable USB` in above steps still needed__
 2. Recover MacOS EFI
 - After Ubuntu installation finished, reboot and boot from previous `Bootable USB`. Check the changed files in MacOS's EFI partion by compare the size of files in `Bootable USB`'s and `Hackintosh HD`'s. Through my practice, replace `BOOT` floder in `Hackintosh HD`'s EFI partition with that of `Bootable USB`'s.
 
-*3. The last thing is to chang the boot order in BIOS to boot from `clover`*
+3. *The last thing is to chang the boot order in BIOS to boot from `clover`*
 4. If the `clover` GUI cannot see Ubuntu, enter into MacOS and use `clover configuration` to modify `config.plist` checking the `gui`>`scan`>`linux`. Then save and reboot to see ubuntu in `clover` GUI.
 
 ## Ohter Method
