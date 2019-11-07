@@ -1,6 +1,13 @@
 # Hackintosh-Gigabyte-Z390-GAMING-X-i7-9700k
 Procedure and some source file including EFI used when I install hackintosh Catalina 10.15.1
 
+## Organization
+* EFI-Main: I use this to successfully boot Hackintosh.
+* EFI-OtherMethod: This is for `other method` part.
+* EFI-heiguoxiaobing: This is copied from `黑果小兵`'s `dmg`.
+* EFI-warehouse: A lot of file which may contain what you want to try for something.
+* EFI-z390-370: This is a EFI for my configuration. I brought it from xianyu. 
+
 ## Configuration
 
 ### Hardware 
