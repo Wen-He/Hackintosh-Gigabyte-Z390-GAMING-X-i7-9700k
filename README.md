@@ -87,3 +87,6 @@ sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstall
 16. Navigate to `/EFI/CLOVER/kexts/Other/` and add `FakeSMC.kext`
 17. (Optional) Navigate to /EFI/CLOVER/kexts/Other/ and add your ethernet kext
 18. (Optional) Navigate to /EFI/CLOVER/kexts/Other/ and add NullCPUPowerManagement.kext
+
+## Play Together
+This is a note I took when trying to installing a MacOS on my customized desktop. I hope this would help you. It's what I enjoy when my student life is not hard. **If you have questions, make an issue and I'll try.** In addition, contributions is welcomed. I will add you to the list of contributors. **Let's have fun together.**
