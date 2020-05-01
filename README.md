@@ -62,7 +62,7 @@ __The `Bootable USB` in above steps still needed__
 3. *The last thing is to chang the boot order in BIOS to boot from `clover`*
 4. If the `clover` GUI cannot see Ubuntu, enter into MacOS and use `clover configuration` to modify `config.plist` checking the `gui`>`scan`>`linux`. Then save and reboot to see ubuntu in `clover` GUI.
 
-## Ohter Method for Creating a Bootable USB
+## Other Method for Creating a Bootable USB
 I previously successed with the following method but failed to do it again. I guess that I havn't biult the EFI partition correctly.
 According to this [website](https://www.tonymacx86.com/threads/how-to-create-a-macos-catalina-public-beta-installation-usb.278188/):
 After download macOS Catalina in a real Mac,
@@ -89,4 +89,4 @@ sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstall
 18. (Optional) Navigate to /EFI/CLOVER/kexts/Other/ and add NullCPUPowerManagement.kext
 
 ## Play Together
-This is a note I took when trying to installing a MacOS on my customized desktop. I hope this would help you. It's what I enjoy when my student life is not hard. **If you have questions, make an issue and I'll try.** In addition, contributions is welcomed. I will add you to the list of contributors. **Let's have fun together.**
+This is a note I took when trying to installing a MacOS on my customized desktop. I hope this would help you. It's what I enjoy when my student life is not hard. ***If you have questions, make an issue and I'll try.*** In addition, contributions is welcomed. I will add you to the list of contributors. ***Let's have fun together.***
